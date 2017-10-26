@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--表意 常量命名法 小写下划线-->
+
+    <!-- ================= -->
+    <!--        原色       -->
+    <!-- ================= -->
+    <!--白色white #FFFFFFFF-->
+    <!--黑色black #FF000000-->
+    <!--红色red  #FFF73130-->
+    <!--黄色yellow  #F9A531-->
+    <!--橙色orange  #FFFDB14D-->
+    <!--绿色green  #FF07C391-->
+    <!--蓝色blue  #FF349DF6-->
+    <!--紫色violet  #FFA378FF-->
+    <!--灰色gray #FF999999-->
+    <color name="white">#FFFFFFFF</color>
+    <color name="black">#FF000000</color>
+    <color name="red">#FFF73130</color>
+    <color name="orange">#FF8D73</color>
+    <color name="yellow">#FFFD97</color>
+    <color name="green">#FF27CB23</color>
+    <color name="blue">#FF40ABFF</color>
+    <color name="purple">#FFA378FF</color>
+    <color name="gray">#FF999999</color>
+
+
+    <!-- ================= -->
+    <!--        浅原色       -->
+    <!-- ================= -->
+    <!--浅绿色green  #FF07C391-->
+    <!--浅蓝色blue  #FFd6ebfd-->
+    <!--浅灰gray_light #FFD9D9D9-->
+    <color name="green_light">#5cd6b4</color>
+    <color name="blue_light">#FFd6ebfd</color>
+    <color name="gray_light">#FFD9D9D9</color>
+
+
+    <!-- ================= -->
+    <!--        深原色      -->
+    <!-- ================= -->
+    <!--* 暗蓝色blue_dark #FF046AE8-->
+    <!--* 暗红色red_dark #FFC73026-->
+    <!--* 暗橙色orange_dark #FFED9E2F-->
+    <!--深灰gray_dark #FF545454-->
+    <color name="blue_dark">#FF3289F5</color>
+    <color name="red_dark">#FFC73026</color>
+    <color name="orange_dark">#E15B3C</color>
+    <color name="gray_dark">#FF545454</color>
+
+    <!-- ================= -->
+    <!--      原色透明度     -->
+    <!-- ================= -->
+    <!--* 全透明transparent #00000000-->
+    <!--* 半透明蓝色transparent #00000000-->
+    <color name="transparent">#00000000</color>
+    <color name="blue_alpha_light">#4440ABFF</color>
+    <color name="blue_alpha_normal">#8840ABFF</color>
+    <color name="blue_alpha_dark">#CC40ABFF</color>
+
+</resources>

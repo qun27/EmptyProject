@@ -1,0 +1,36 @@
+<resources>
+    <string name="app_name">Empty Project</string>
+
+    <!--==============-->
+    <!--     表意     -->
+    <!--==============-->
+    <string name="skip">跳过</string>
+
+    <!--==============-->
+    <!--   共用模块    -->
+    <!--==============-->
+    <!--图片工具-->
+    <string-array name="image_get_mode">
+        <item>拍照</item>
+        <item>相册</item>
+    </string-array>
+
+    <!--权限-->
+    <string name="permission_camera_fail">没有获取到相机的权限</string>
+    <string name="permission_photo_galley_fail">没有获取到相册的权限</string>
+    <string name="permission_sd_card_fail">没有获取到SD读写的权限</string>
+
+    <!--异常文本-->
+    <string name="token_invalid">为保障您的账号安全，请重新登录</string>
+    <string name="account_disabled">您的账号已被停用</string>
+
+    <!--通用页脚-->
+    <string name="last_page_footer">没啦!</string>
+    <string name="no_last_page_footer">加载中...</string>
+
+    <!--==============-->
+    <!--   Main模块    -->
+    <!--==============-->
+    <!--Home-->
+    <string name="title_activity_main_home">MainHomeActivity</string>
+</resources>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--标题栏、悬浮栏-->
+    <item type="id" name="titleBar"/>
+    <item type="id" name="titleTextView"/>
+    <item type="id" name="backView"/>
+    <item type="id" name="homeView"/>
+    <!--编辑-->
+    <item type="id" name="editToggleButton"/>
+    <item type="id" name="checkAllButton"/>
+    <!--分页列表-->
+    <item type="id" name="refreshLayout"/>
+    <item type="id" name="recyclerView"/>
+    <!--状态页面-->
+    <item type="id" name="errorView"/>
+    <item type="id" name="emptyView"/>
+
+</resources>

@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="painter1024.emptyproject">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:name=".app.MyApplication"
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+
+        <!-- ============== -->
+        <!--      主模块     -->
+        <!-- ============== -->
+        <activity
+            android:name=".biz.ui.main.boot.MainBootActivity"
+            android:configChanges="orientation|keyboardHidden|screenSize"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.Fullscreen">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".biz.ui.main.guide.MainGuideActivity"
+            android:configChanges="orientation|keyboardHidden|screenSize"
+            android:launchMode="singleTask"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.Fullscreen"
+            android:windowSoftInputMode="stateAlwaysHidden" />
+        <activity
+            android:name=".biz.ui.main.home.MainHomeActivity"
+            android:configChanges="orientation|keyboardHidden|screenSize"
+            android:label="@string/title_activity_main_home"
+            android:launchMode="singleTask"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.NoActionBar"
+            android:windowSoftInputMode="adjustResize|stateAlwaysHidden" />
+
+        <!-- ============== -->
+        <!--    core模块     -->
+        <!-- ============== -->
+        <activity
+            android:name=".core.ui.ex.tool.image.take.TakeImageActivity"
+            android:configChanges="orientation|keyboardHidden|screenSize"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.Float" />
+        <receiver android:name=".project.ui.ex.tool.error_handle.ApiRequestErrorReceiver"
+            android:exported="false">
+            <intent-filter>
+                <action android:name="ACTION_API_REQUEST_ERROR" />
+            </intent-filter>
+        </receiver>
+
+        <!-- ============== -->
+        <!--    用户模块     -->
+        <!-- ============== -->
+
+    </application>
+
+</manifest>

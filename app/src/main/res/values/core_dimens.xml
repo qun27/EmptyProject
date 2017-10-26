@@ -1,0 +1,42 @@
+<resources>
+
+    <!--字体尺寸-->
+    <dimen name="font_large">16dp</dimen>
+    <dimen name="font_normal">14dp</dimen>
+    <dimen name="font_small">11dp</dimen>
+
+	<!--角度-->
+    <dimen name="angle_large">10dp</dimen>
+    <dimen name="angle_normal">4dp</dimen>
+    <dimen name="angle_small">2dp</dimen>
+
+    <!--空隙-->
+    <dimen name="space_horizontal_normal">10dp</dimen>
+    <dimen name="space_horizontal_large">14dp</dimen>
+    <dimen name="space_vertical_normal">8dp</dimen>
+    <dimen name="space_vertical_large">13dp</dimen>
+
+    <!--线-->
+    <dimen name="line_height">1px</dimen>
+    <dimen name="line_height_bold">8dp</dimen>
+
+    <!--###按钮-->
+    <dimen name="button_height_extra_tall">42dp</dimen>
+    <dimen name="button_height_tall">33dp</dimen>
+    <dimen name="button_height_normal">27dp</dimen>
+    <dimen name="button_height_short">23dp</dimen>
+    <dimen name="button_height_mini_short">21dp</dimen>
+
+    <!--###图片像尺寸-->
+    <dimen name="image_size_large">49dp</dimen>
+    <dimen name="image_size_normal">37dp</dimen>
+    <dimen name="image_size_small">32dp</dimen>
+
+    <!--列表项-->
+    <dimen name="item_height_single_row">48dp</dimen>
+    <dimen name="item_height_single_row_short">37dp</dimen>
+
+    <dimen name="item_height_double_row_short">56dp</dimen>
+    <dimen name="item_height_double_row">60dp</dimen>
+    <dimen name="item_height_double_row_tall">63dp</dimen>
+</resources>

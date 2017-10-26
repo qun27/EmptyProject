@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--==============-->
+    <!--     表意     -->
+    <!--==============-->
+    <string name="sure">确定</string>
+    <string name="cancel">取消</string>
+    <string name="back">返回</string>
+    <string name="check_all">全选</string>
+    <string name="edit">编辑</string>
+    <string name="finish">完成</string>
+
+    <string name="loading">加载中…</string>
+    <string name="network_error_click_retry">网络不给力，点击屏幕重试</string>
+    <string name="net_error">网络异常</string>
+</resources>

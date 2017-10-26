@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout style="@style/Line.White">
+    <View style="@style/Line.MarginLeft"/>
+</FrameLayout>

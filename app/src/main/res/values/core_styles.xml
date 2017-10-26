@@ -1,0 +1,235 @@
+<resources>
+
+    <!-- ======================= -->
+    <!--        ##文字样式       -->
+    <!-- ======================= -->
+    <style name="Text" parent="@style/TextAppearance.AppCompat">
+        <item name="android:textSize">@dimen/font_large</item>
+        <item name="android:textColor">@color/gray_dark</item>
+    </style>
+    <style name="Text.Large" parent="Text">
+        <item name="android:textSize">@dimen/font_large</item>
+    </style>
+    <style name="Text.Normal" parent="Text">
+        <item name="android:textSize">@dimen/font_normal</item>
+    </style>
+    <style name="Text.Small" parent="Text">
+        <item name="android:textSize">@dimen/font_small</item>
+    </style>
+    <!--Text.Normal-->
+    <style name="Text.Normal.Gary" parent="Text.Normal">
+        <item name="android:textColor">@color/gray</item>
+    </style>
+    <style name="Text.Normal.White" parent="Text.Normal">
+        <item name="android:textColor">@color/white</item>
+    </style>
+    <style name="Text.Normal.Blue" parent="Text.Normal">
+        <item name="android:textColor">@color/blue</item>
+    </style>
+    <style name="Text.Normal.Orange" parent="Text.Normal">
+        <item name="android:textColor">@color/orange</item>
+    </style>
+    <!--Text.Large-->
+    <style name="Text.Large.White" parent="Text.Large">
+        <item name="android:textColor">@color/white</item>
+    </style>
+    <style name="Text.Large.Gary" parent="Text.Large">
+        <item name="android:textColor">@color/gray</item>
+    </style>
+    <style name="Text.Large.Orange" parent="Text.Large">
+        <item name="android:textColor">@color/orange</item>
+    </style>
+    <style name="Text.Large.Blue" parent="Text.Large">
+        <item name="android:textColor">@color/blue</item>
+    </style>
+    <!--Text.Small-->
+    <style name="Text.Small.Gary" parent="Text.Small">
+        <item name="android:textColor">@color/gray</item>
+    </style>
+    <style name="Text.Small.Blue" parent="Text.Small">
+        <item name="android:textColor">@color/blue</item>
+    </style>
+    <style name="Text.Small.Green" parent="Text.Small">
+        <item name="android:textColor">@color/green</item>
+    </style>
+    <style name="Text.Small.White" parent="Text.Small">
+        <item name="android:textColor">@color/white</item>
+    </style>
+    <style name="Text.Small.Orange" parent="Text.Small">
+        <item name="android:textColor">@color/orange</item>
+    </style>
+
+    <!-- ======================= -->
+    <!--      button 按钮        -->
+    <!-- ======================= -->
+    <style name="Button" parent="@style/Widget.AppCompat.Button.Borderless">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">@dimen/button_height_normal</item>
+        <item name="android:height">@dimen/button_height_normal</item>
+        <item name="android:textAppearance">@style/Text.Normal.White</item>
+        <item name="android:background">@drawable/selector_round_rect_blue</item>
+    </style>
+    <style name="Button.Tall" parent="Button">
+        <item name="android:height">@dimen/button_height_tall</item>
+        <item name="android:layout_height">@dimen/button_height_tall</item>
+    </style>
+    <style name="Button.Normal" parent="Button">
+        <item name="android:height">@dimen/button_height_normal</item>
+        <item name="android:layout_height">@dimen/button_height_normal</item>
+    </style>
+    <style name="Button.Short" parent="Button">
+        <item name="android:height">@dimen/button_height_short</item>
+        <item name="android:layout_height">@dimen/button_height_short</item>
+    </style>
+    <!--Button.Normal-->
+    <style name="Button.Normal.Red" parent="Button.Normal">
+        <item name="android:background">@drawable/selector_round_rect_red</item>
+    </style>
+    <style name="Button.Normal.Orange" parent="Button.Normal">
+        <item name="android:background">@drawable/selector_round_rect_orange</item>
+    </style>
+    <!--Button.Tall-->
+    <style name="Button.Tall.Orange" parent="Button.Tall">
+        <item name="android:background">@drawable/selector_round_rect_orange</item>
+    </style>
+    <style name="Button.Tall.Red" parent="Button.Tall">
+        <item name="android:background">@drawable/selector_round_rect_red</item>
+    </style>
+
+    <!-- ======================= -->
+    <!--    imageButton 图片按钮 -->
+    <!-- ======================= -->
+    <style name="ImageButton" parent="Widget.AppCompat.ImageButton"/>
+
+    <!-- ======================= -->
+    <!--      label 标签        -->
+    <!-- ======================= -->
+    <style name="Label">
+        <item name="android:textAppearance">@style/Text.Small.White</item>
+        <item name="android:background">@drawable/vector_round_rect_blue</item>
+        <item name="android:minWidth">52dp</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">17dp</item>
+        <item name="android:height">17dp</item>
+        <item name="android:gravity">center</item>
+        <item name="android:paddingLeft">@dimen/space_vertical_normal</item>
+        <item name="android:paddingRight">@dimen/space_vertical_normal</item>
+    </style>
+    <style name="Label.Orange" parent="Label">
+        <item name="android:background">@drawable/vector_round_rect_orange</item>
+    </style>
+    <style name="Label.Red" parent="Label">
+        <item name="android:background">@drawable/vector_round_rect_red</item>
+    </style>
+    <style name="Label.GrayLight" parent="Label">
+        <item name="android:background">@drawable/vector_round_rect_gray_light</item>
+    </style>
+
+    <!-- ======================= -->
+    <!--       EditText          -->
+    <!-- ======================= -->
+    <style name="EditText" parent="Widget.AppCompat.EditText">
+        <!--<item name="editTextColor">@color/gray_dark</item>-->
+        <item name="android:background">@drawable/vector_round_rect_white_gray_stroke</item>
+        <item name="android:textColorHint">@color/gray_light</item>
+        <item name="android:textAppearance">@style/Text.Normal</item>
+        <item name="android:textColor">@color/gray_dark</item>
+        <item name="android:padding">@dimen/space_horizontal_normal</item>
+    </style>
+
+    <!--* 左右padding输入框 EditText-->
+    <style name="EditText.PaddingHorizontal" parent="EditText">
+        <item name="android:paddingLeft">@dimen/activity_horizontal_margin</item>
+        <item name="android:paddingRight">@dimen/activity_horizontal_margin</item>
+    </style>
+
+    <!-- ======================= -->
+    <!--       CheckBox         -->
+    <!-- ======================= -->
+    <style name="CheckBox" parent="Widget.AppCompat.CompoundButton.CheckBox">
+        <item name="android:textAppearance">@style/Text.Normal</item>
+        <item name="android:textColor">@color/gray_dark</item>
+        <item name="android:gravity">center</item>
+        <item name="android:paddingLeft">@dimen/space_vertical_normal</item>
+        <item name="android:minWidth">50dp</item>
+    </style>
+
+    <!-- ======================= -->
+    <!--          RadioButton         -->
+    <!-- ======================= -->
+    <style name="RadioButton" parent="Widget.AppCompat.CompoundButton.RadioButton">
+        <item name="android:textAppearance">@style/Text.Normal</item>
+        <item name="android:gravity">center</item>
+        <item name="android:paddingLeft">@dimen/space_vertical_normal</item>
+        <item name="android:minWidth">50dp</item>
+    </style>
+
+    <!-- ======================= -->
+    <!--          Switch         -->
+    <!-- ======================= -->
+    <style name="Switch" parent="TextAppearance.AppCompat.Widget.Switch">
+        <item name="android:thumb">@drawable/selector_switch_thumb</item>
+        <item name="track">@drawable/selector_switch_track</item>
+        <item name="android:textOff">""</item>
+        <item name="android:textOn">""</item>
+        <item name="showText">false</item>
+        <item name="android:background">@null</item>
+
+    </style>
+
+    <!-- ======================= -->
+    <!--         ToggleButton   -->
+    <!-- ======================= -->
+    <style name="ToggleButton" parent="@style/Widget.AppCompat.Button.Borderless">
+        <item name="android:textAppearance">@style/Text.Normal</item>
+    </style>
+
+    <!-- ======================= -->
+    <!--        图片           -->
+    <!-- ======================= -->
+    <style name="Image">
+    </style>
+    <style name="Image.HeadNormal" parent="Image">
+        <item name="android:layout_width">@dimen/image_size_normal</item>
+        <item name="android:layout_height">@dimen/image_size_normal</item>
+        <item name="android:width">@dimen/image_size_normal</item>
+        <item name="android:height">@dimen/image_size_normal</item>
+    </style>
+
+    <!-- ======================= -->
+    <!--        ProgressBar        -->
+    <!-- ======================= -->
+    <style name="ProgressBar" parent="@android:style/Widget.ProgressBar.Horizontal">
+        <item name="android:indeterminateOnly">false</item>
+        <item name="android:indeterminateDrawable">@android:drawable/progress_indeterminate_horizontal</item>
+    </style>
+    <style name="ProgressBar.Mini" parent="ProgressBar">
+        <item name="android:progressDrawable">@drawable/progress_mini</item>
+    </style>
+    <style name="ProgressBar.Normal" parent="ProgressBar">
+        <item name="android:progressDrawable">@drawable/progress_normal</item>
+    </style>
+
+    <!-- ======================= -->
+    <!--       SeekBar           -->
+    <!-- ======================= -->
+
+    <style name="SeekBar" parent="android:Widget.SeekBar">
+    </style>
+
+    <!-- ======================= -->
+    <!--        ScrollView        -->
+    <!-- ======================= -->
+    <style name="ScrollView">
+        <item name="android:scrollbars">none</item>
+        <item name="android:fillViewport">true</item>
+    </style>
+
+    <!-- ======================= -->
+    <!--   Dialog中间的View样式      -->
+    <!-- ======================= -->
+    <style name="DialogContent">
+        <item name="android:paddingLeft">?attr/dialogPreferredPadding</item>
+        <item name="android:paddingRight">?attr/dialogPreferredPadding</item>
+    </style>
+</resources>

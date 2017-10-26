@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TextView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/textView"
+    android:layout_width="match_parent"
+    android:layout_height="35dp"
+    android:contentDescription="@null"
+    android:gravity="center"
+    android:textColor="#979797"
+    android:textSize="15dp"
+    android:text="@string/last_page_footer" />

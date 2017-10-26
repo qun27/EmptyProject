@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--使用位置 变量命名法 小驼峰-->
+
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+
+    <color name="windowBackground">#FFF2F5F5</color>
+    <color name="windowBackgroundWarn">#FFFFE6E4</color>
+    <color name="windowBackgroundPopup">#33121212</color>
+
+    <color name="swipeProgress">?attr/colorAccent</color>
+    <color name="divider">@color/gray_light</color>
+
+</resources>

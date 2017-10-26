@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- ======================= -->
+    <!--         ##列表项样式      -->
+    <!-- ======================= -->
+    <style name="Item">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:paddingLeft">@dimen/activity_horizontal_margin</item>
+        <item name="android:paddingRight">@dimen/activity_horizontal_margin</item>
+        <item name="android:background">@drawable/selector_item</item>
+        <item name="android:textSize">@dimen/font_large</item>
+        <item name="android:textColor">@color/gray_dark</item>
+        <item name="android:gravity">center_vertical</item>
+    </style>
+    <style name="Item.SingleRow" parent="Item">
+        <item name="android:layout_height">@dimen/item_height_single_row</item>
+        <item name="android:height">@dimen/item_height_single_row</item>
+    </style>
+
+    <style name="Item.DoubleRow" parent="Item">
+        <item name="android:layout_height">@dimen/item_height_double_row</item>
+        <item name="android:height">@dimen/item_height_double_row</item>
+    </style>
+
+
+    <!-- ======================= -->
+    <!--       ##分隔线样式     -->
+    <!-- ======================= -->
+    <style name="Line">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">@dimen/line_height</item>
+        <item name="android:height">@dimen/line_height</item>
+        <item name="android:background">@color/gray_light</item>
+    </style>
+    <style name="Line.MarginLeft" parent="Line">
+        <item name="android:layout_marginLeft">@dimen/activity_horizontal_margin</item>
+    </style>
+    <style name="Line.White" parent="Line">
+        <item name="android:background">@color/white</item>
+    </style>
+
+    <!-- ================= -->
+    <!--      标题栏       -->
+    <!-- ================= -->
+    <style name="TitleBar" parent="Widget.AppCompat.Toolbar">
+        <item name="titleMargin">0dp</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">?attr/actionBarSize</item>
+        <item name="android:background">?attr/colorPrimary</item>
+        <item name="popupTheme">@style/AppTheme.PopupOverlay</item>
+        <item name="android:id">@id/titleBar</item>
+    </style>
+    <style name="TitleBar.Title" parent="TextAppearance.Widget.AppCompat.Toolbar.Title">
+    </style>
+    <style name="TitleBar.Button.Navigation" parent="Widget.AppCompat.Toolbar.Button.Navigation">
+        <item name="android:src">@mipmap/ic_launcher</item><!--TODO back icon-->
+        <item name="android:gravity">start</item>
+    </style>
+    <!--标题栏按钮样式-->
+    <style name="TitleBar.Button" parent="Widget.AppCompat.ActionButton.CloseMode">
+        <item name="android:textColor">@color/white</item>
+    </style>
+</resources>
